@@ -1,0 +1,118 @@
+﻿body
+{font-family:Calibri;
+}
+
+main {
+    background-color: aliceblue;
+    height: 625px;
+}
+
+.title-box {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#title {
+    font-size: 3em;
+    font-weight: bold;
+    margin: 5px;
+}
+
+.underline {
+    width: 5em;
+    height: 0.25em;
+    background-color: dodgerblue;
+}
+
+.box{
+    width: 40%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: ghostwhite;
+    border-radius: 10px;
+    box-shadow: rgb(128 128 128 / 50%) 0 0 10px 2px;
+    padding: 20px;
+}
+
+#mark {
+    font-size: 5em;
+    font-family: auto;
+    text-align: center;
+    color: white;
+    background-color: dodgerblue;
+    border-radius: 50%;
+    width: 0.6em;
+    height: 0.6em;
+    position: absolute;
+    margin: -338px 86px 0 auto;
+    z-index: 1; /*serve para trazer os objetos para frente. 
+        Só funciona para elementos posicionados (position). 
+        Quanto maior o número, mais a frente o elemento fica.*/
+}
+
+.img-box {
+    border-radius: 50%;
+    width: 170px;
+    height: 170px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: dodgerblue 8px -5px;
+    z-index: 0;
+}
+
+.img-box img{
+    position: absolute;
+    bottom: 0;
+    width: 105%;
+}
+
+#text-title, #text-type, #text {
+    text-align: center;
+    margin: 10px;
+}
+
+#text-title {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+#text-type {
+    font-size: 1.1em;
+    color: blue;
+}
+
+#text {
+    color: darkslategrey;
+}
+
+.arrow {
+    width: 1.8em;
+    height: 1.8em;
+    margin-top: 10px;
+}
+
+.arrow:hover {
+    cursor: pointer;
+}
+
+#bt {
+    font-size: 1em;
+    color: white;
+    font-family: calibri;
+    background: cornflowerblue;
+    font-style: italic;
+    border-radius: 5px;
+    margin: 15px 0 0 0;
+}
+
+
+
+
+
